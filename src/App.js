@@ -1,10 +1,12 @@
 import './App.css';
-import UncontrolledLottie from './components/Lottie';
+import ControlledLottie from './components/ControlledLottie';
+// import UncontrolledLottie from './components/UncontrolledLottie';
 
 function App() {
   return (
     <div className="App">
-      <UncontrolledLottie />
+      {/* <UncontrolledLottie /> */}
+      <ControlledLottie />
     </div>
   );
 }
