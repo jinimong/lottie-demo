@@ -1,5 +1,6 @@
 import './App.css';
 import ControlledLottie from './components/ControlledLottie';
+import ToggleLike from './components/ToggleLike';
 import UncontrolledLottie from './components/UncontrolledLottie';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <div className="lotties">
         <UncontrolledLottie />
         <ControlledLottie />
+        <ToggleLike />
       </div>
     </div>
   );
